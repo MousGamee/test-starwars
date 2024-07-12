@@ -1,8 +1,8 @@
 # Test Technique : Star wars
 
-npm run build : pour compiler les fichers et creer un dist
-npm run start : server dev
-
+- npm install : pour installer les dépendances
+- npm run build : pour compiler les fichers et creer un dist
+- npm run start : server dev
 
 ## Fonctionnalités
 
@@ -26,9 +26,16 @@ Aucune installation spécifique n'est nécessaire. Il suffit d'inclure ce script
 
 ## Détails du code
 
+### Classe Parallax
+La classe Parallax gère l'application de l'effet de parallaxe aux éléments spécifiés.
+
+Constructeur
+Le constructeur initialise les propriétés de l'élément et configure un observateur d'intersection pour détecter quand l'élément est visible à l'écran.
+
 ### Fonction `offsetTop`
 
 Cette fonction calcule la position d'un élément par rapport au haut de la page en additionnant les positions de ses parents.
+
 
 ```javascript
 /**

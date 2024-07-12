@@ -152,7 +152,29 @@ ul {
     font-size: 1.2rem;
 }
 
+.section-3 .big-title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section-3 img {
+    float: left;
+    margin: 0px 40px 18px 0;
+}
+
+.section-3 .section-text p {
+    font-weight: lighter;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+
 @media (max-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
     .nav {
         display: none;
     }
@@ -196,6 +218,11 @@ ul {
     #hamburger-icon {
         display: inline-block;
     }
+    .section-3 img {
+        float: none;
+        margin: O;
+        width: 100%;
+    }
 
 }
 
@@ -210,6 +237,7 @@ ul {
 
     .header {
         min-height: 80vh;
-
     }
+
+   
 }

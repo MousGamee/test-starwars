@@ -1,12 +1,16 @@
 import './style.css'
 import logo from './assets/images/logo.png'
 import gameCover from './assets/images/game-cover.png'
+import robots from './assets/images/robots.png'
 
 
 const logoImage = document.getElementById('logo')
 const gameCoverImage = document.getElementById('game-cover')
+const robotsImage = document.getElementById('robots')
+
 logoImage.src = logo
 gameCoverImage.src = gameCover
+robotsImage.src = robots
 
 
 // toggle the menu
@@ -27,7 +31,7 @@ mobileNavToggle.addEventListener('click', () => {
     return acc + element.offsetTop
 }
 
-export class Parallax {
+class Parallax {
     /**
      * 
      * @param {HTMLElement} element 
